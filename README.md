@@ -1,10 +1,10 @@
-## Medication Management API
+# Medication Management API
 
-# Database architecture
+## Database architecture
 
 We have two models currently: Patient and Medication. Patient contains a name and age field. Medication only contains a name field and is a many-to-many relationship with the Patient model. We will use the sqlite db that comes pre-packaged with Python for now.
 
-# Endpoints
+## Endpoints
 
 The api exposes a few endpoints for both models.
 
@@ -37,7 +37,7 @@ are not found.
     medication_name: advil
 }
 
-# Running Locally
+## Running Locally
 
 I have set up a Makefile to run the API locally. To run, simply:
 0. clone the directory locally: `git clone https://github.com/amondal2/medication_api.git`
