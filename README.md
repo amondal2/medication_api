@@ -42,5 +42,5 @@ are not found.
 I have set up a Makefile to run the API locally. To run, simply:
 
 1. clone the directory locally: `git clone https://github.com/amondal2/medication_api.git`
-2. run `make run` in the root  `wellframe_api` directory
+2. run `make run` in the root directory
 3. the shell will print which localhost:port combination it's running on (usually localhost:8000). access this with the above endpoints to test the api.
