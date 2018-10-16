@@ -39,8 +39,7 @@ are not found.
 
 # Running Locally
 
-I have set up a virtual environment and Makefile to run the API locally. To run, simply:
-1. run ` . env/bin/activate` or `source env/bin/activate`
-2. run `make run` in the root  `wellframe_api` directory
-3. the shell will print which localhost:port combination it's running on. access this
+I have set up a Makefile to run the API locally. To run, simply:
+1. run `make run` in the root  `wellframe_api` directory
+2. the shell will print which localhost:port combination it's running on. access this
 with the above endpoints to test
