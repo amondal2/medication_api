@@ -28,7 +28,7 @@ are not found.
 {
     medication_name: advil
 }
-6. POST /patient/{id}/remove/ removes a given medication with the patient, given the
+6. POST /patient/{id}/remove/ removes a given medication for the patient, given the
 patient's database id. It returns all medications associated with the given
 patient after the removal is complete. This endpoint requires a JSON body with the
 medication name parameter, and returns a 400 response if either the medication or patient
