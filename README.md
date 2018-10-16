@@ -2,7 +2,7 @@
 
 # Database architecture
 
-We have two models currently: Patient and Medication. Patient contains a name and age field. Medication only contains a name field and is a many-to-many relationship with the Patient model.
+We have two models currently: Patient and Medication. Patient contains a name and age field. Medication only contains a name field and is a many-to-many relationship with the Patient model. We will use the sqlite db that comes pre-packaged with Python for now.
 
 # Endpoints
 
